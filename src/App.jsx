@@ -1,10 +1,11 @@
 
 import './App.css';
+import Contact from './pages/contact/Contact';
 
 function App() {
   return (
     <div className="App">
-      REACT
+      <Contact/>
     </div>
   );
 }
