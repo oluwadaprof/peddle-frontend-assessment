@@ -1,0 +1,38 @@
+.about {
+    height: 80rem;
+    .first__section {
+        margin-top: .7rem;
+        .glass__container {
+            width: 56rem;
+            height: 38rem;
+            background-color: gray;
+        }
+        .about__text {
+            margin-top: -25rem;
+            margin-left: -15rem;
+            font-size: 1rem;
+        }
+        .saas__text {
+            font-size: 4rem;
+            text-align: left;
+            margin-left: 41rem;
+            margin-top: .5rem;
+        }
+        .tools__text {
+            text-align: left;
+            margin-left: 62%;
+            font-size: 1.2rem;
+            line-height: 2.1rem;
+            font-weight: 100;
+        }
+    }
+    .second__section {
+        margin-top: 9rem;
+        .metriks__text {
+            margin-left: 17rem;
+            font-size: 3rem;
+            text-align: left;
+            margin-bottom: 5rem;
+        }
+    }
+}
