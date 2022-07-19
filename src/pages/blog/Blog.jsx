@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from '../../components/nav/Nav'
 import './blog.scss'
 import { BsSearch } from "react-icons/bs";
+import FeaturedArticle from '../../components/article/featuredarticle/FeaturedArticle';
 
 
 const Blog = () => {
@@ -22,12 +23,17 @@ const Blog = () => {
                         <h1>Latest from Blog</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum  <br />doloremque eveniet repudiandae, qui sint architecto?</p>
                     </div>
+
+                    <div className="input__container">
+                        <input type="text" placeholder='Search here' />
+                        <BsSearch className='icon' />
+                    </div>
                 </div>
-                <div className="input__container">
-                    <input type="text" />
-                    <BsSearch  className='icon' />
+                <div className="article__container">
+                    <FeaturedArticle />
                 </div>
             </div>
+           
         </div>
     )
 }
