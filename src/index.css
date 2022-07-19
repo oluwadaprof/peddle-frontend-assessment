@@ -4,10 +4,12 @@ body {
     box-sizing: border-box;
     color: white;
     background-color: var(--primary-color);
+    height: auto;
 }
 
 :root {
     --primary-color: #1B003B;
     --button-color: #271AC1;
     --icon-color: #9994A3;
+    --active-link: #FE2FF7;
 }

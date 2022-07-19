@@ -1,7 +1,8 @@
 import React from 'react'
-import Footer from '../../components/footer/Footer'
+// import Footer from '../../components/footer/Footer'
 import Nav from '../../components/nav/Nav'
 import './about.scss'
+import { AiFillYoutube } from "react-icons/ai";
 
 const About = () => {
   return (
@@ -24,7 +25,38 @@ const About = () => {
         you, we needed a product that could give <br/>us <span>good value.</span> 
         </p>
       </div>
-      <Footer/>
+      <div className="third__section">
+        <div className="first__part">
+1
+        </div>
+        <div className="second__part">
+2
+        </div>
+      </div>
+      <div className="fourth__section">
+        <h1>Got a question?</h1>
+        <p>See how Metriks can help your business grow with best affiliate marketing tracking <br />
+          software
+        </p>
+        <p>Contact us ----{'>'} </p>
+      </div>
+
+
+      <div className='footer' >
+        <div className="icon__list">
+          <AiFillYoutube className='icon' />
+          <AiFillYoutube className='icon' />
+          <AiFillYoutube className='icon' />
+          <AiFillYoutube className='icon' />
+          <AiFillYoutube className='icon' />
+        </div>
+        <div className="terms">
+          <p>Terms of service</p>
+          <p>Privacy policy</p>
+        </div>
+        <p>Copyright 2021 @ Peddle Technologies. All rights reserved.</p>
+      </div>
+      {/* <Footer/> */}
     </div>
   )
 }

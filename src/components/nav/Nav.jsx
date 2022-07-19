@@ -6,8 +6,8 @@ const Nav = () => {
         <div className='nav' >
             <div className='logo'>Logo</div>
             <div className="navlink__container">
-                <p>About</p>
-                <p>Blog</p>
+                <p>ABOUT US</p>
+                <p>BLOG</p>
                 <button>Contact</button>
             </div>
         </div>
