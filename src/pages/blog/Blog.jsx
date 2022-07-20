@@ -31,6 +31,11 @@ const Blog = () => {
                 </div>
                 <div className="article__container">
                     <FeaturedArticle />
+                    <FeaturedArticle />
+                    <FeaturedArticle />
+                    <FeaturedArticle />
+                    <FeaturedArticle />
+                    <FeaturedArticle />
                 </div>
             </div>
            
