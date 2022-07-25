@@ -42,8 +42,8 @@ const Blog = () => {
             <div className="blog__third-section">
                 <div className="recent__container-header">
                     <h1>Recent Articles</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/>
-                     Libero natus, quidem sit officia dicta vel a distinctio impedit fugiat corporis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                        Libero natus, quidem sit officia dicta vel a distinctio impedit fugiat corporis!</p>
                 </div>
                 <div className="article__card-container">
                     <ArticleCard />
@@ -51,7 +51,12 @@ const Blog = () => {
                     <ArticleCard />
                 </div>
                 <button className='load__more-btn' >LOAD MORE</button>
-            </div> 
+            </div>
+            <div className="blog__fourth-section">
+                <h1>What to know more about metrics?</h1>
+                <p>Learn who we are and what drives us.</p>
+                <a href="#">Contact Us ----`{'>'}`</a>
+            </div>
         </div>
     )
 }
